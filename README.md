@@ -39,5 +39,8 @@ their spatial dimension.
 Original data points clustered based on both their spatial and temporal dimensions. 
 The gif shows how changing the time difference considered by DBSCAN affects the clusters found.
 
+It is possible to note how the two big clusters found by only considering spatial information, can be actually
+meaningfully divided into further clusters when we consider also the temporal dimension.
+
 ![screen2](img/screen2.gif)
 

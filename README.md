@@ -3,7 +3,7 @@
 Project developed for the "Geospatial Information Management" master course.
 
 This repository shows how to implement from scratch the DBSCAN algorithm in Python, taking into account both
-the spatial and the temporal dimension.
+spatial and temporal dimensions.
 
 DBSCAN is applied on the dataset "animale" which contains a trajectory 
 of 1189 points taken from a roe deer. The positions are expressed in projected 
@@ -20,11 +20,12 @@ Repository files:
   - implementation of DBSCAN by taking into account only the spatial dimension of the data
   - implementation of DBSCAN by taking into account both the spatial and the temporal dimension of the data
 
-- DBSCAN_no_time.csv: csv file containing the data labeled based on the application of DBSCAN. 
+- DBSCAN_no_time.csv: csv file containing the data labeled based on the application of DBSCAN without 
+considering the temporal dimension of data.  
 Each original data point is associated with a label encoding the cluster found through DBSCAN.
 
 - DBCSCAN_with_time.csv: csv file in which the original data point are labeled based on the cluster
-founds through DBSCAN by considering both their spatial and their temporal dimension. 
+founds through DBSCAN by considering both their spatial and temporal dimensions. 
 
 <hr>
 
@@ -35,8 +36,8 @@ their spatial dimension.
 
 <hr>
 
-Original data points clustered based on both their spatial and their temporal dimension. Details on how 
-changing the time difference considered by DBSCAN affects the clusters found.
+Original data points clustered based on both their spatial and temporal dimensions. 
+The gif shows how changing the time difference considered by DBSCAN affects the clusters found.
 
 ![screen2](img/screen2.gif)
 
